@@ -1,0 +1,44 @@
+.contenedor{
+
+    background-color: $celeste;
+    display: flex;
+    justify-content: space-between;
+
+    .contenedor-nombre{
+        display: flex;
+        text-align: center center;
+        padding: 20px;
+        font-size: 20px;
+        padding-bottom: 50px;
+
+        .nombre{
+            padding: 20px;
+            color: white;
+            font-size: 35px;
+            text-align: left;
+        }
+    }
+
+    .navegador{
+        display: flex;
+        margin-top: 23px;
+        margin-right: 10px;
+        font-size: 18px;
+        padding: 40px;
+        gap: 8px;
+        letter-spacing: .5px;
+
+        .item a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .item{
+           
+            list-style: none;
+            color: white;
+        }
+    }
+    
+    
+}
